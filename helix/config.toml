@@ -1,0 +1,16 @@
+theme = "catppuccin_macchiato"
+
+[editor]
+line-number = "relative"
+color-modes = true
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+
+[editor.indent-guides]
+render = true
+
+
+[keys.normal]
+"C-A-l" = ":format"

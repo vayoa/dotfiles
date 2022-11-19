@@ -1,0 +1,105 @@
+{
+  "workbench.colorTheme": "Monokai Pro (Filter Spectrum)",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter.notebook.ipynb"
+  },
+  "python.pythonPath": "C:\\Users\\ew0nd\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
+  "editor.minimap.maxColumn": 100,
+  "terminal.integrated.gpuAcceleration": "off",
+  "vscode_vibrancy.opacity": 0.8,
+  "vscode_vibrancy.theme": "Dark (Only Subbar)",
+  "vscode_vibrancy.type": "acrylic",
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [80],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": false
+  },
+  "git.enableSmartCommit": true,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.mouseWheelZoom": true,
+  "python.defaultInterpreterPath": "C:\\Users\\ew0nd\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+  "tabnine.experimentalAutoImports": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "[glsl]": {
+    "editor.defaultFormatter": "circledev.glsl-canvas"
+  },
+  "terminal.integrated.copyOnSelection": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python"
+  },
+  "editor.fontFamily": "JetBrains Mono",
+  "redhat.telemetry.enabled": false,
+  "yaml.customTags": [
+    "!sequence sequence",
+    "!seq sequence",
+
+    "!dialog mapping",
+    "!text mapping",
+    "!title mapping",
+
+    "!character mapping",
+    "!characterDef mapping",
+
+    "!refer",
+    "!ref",
+
+    "!wait",
+
+    "!input mapping",
+    "!in mapping",
+
+    "!literals sequence",
+    "!literals",
+    "!lit sequence",
+    "!lit",
+
+    "!branch mapping",
+    "!switch mapping",
+
+    "!lastIn sequence",
+
+    "!print",
+
+    "!let",
+
+    "!e",
+    "!expr",
+    "!expression"
+  ],
+  "editor.fontLigatures": true,
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer",
+    "editor.formatOnSave": true
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.inlayHints.fontFamily": "JetBrains Mono",
+  "editor.codeActionsOnSave": {},
+  "settingsSync.ignoredExtensions": ["k--kato.intellij-idea-keybindings"],
+  "editor.stickyScroll.enabled": true,
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": true,
+  "vim.easymotion": true,
+  "vim.leader": "<Space>",
+  "editor.lineNumbers": "relative",
+  "vim.smartRelativeLine": true,
+  "vim.handleKeys": {
+    "<C-w>": true,
+    "<C-d>": true,
+    "<C-s>": false,
+    "<C-z>": false
+  }
+}

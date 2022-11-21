@@ -1,0 +1,52 @@
+Plug 'preservim/nerdtree'
+Plug 'tpope/vim-surround'
+Plug 'easymotion/vim-easymotion'
+Plug 'michaeljsmith/vim-indent-object'
+
+set number
+set relativenumber
+set ideajoin
+set which-key
+
+let mapleader = " "
+
+""" Handlers
+sethandler <c-B> a:ide
+sethandler <c-q> a:ide
+sethandler <c-s-\> a:ide
+sethandler <c-\> a:ide
+sethandler <a-h> a:vim
+sethandler <a-l> a:vim
+sethandler <c-k> a:ide
+
+""" Navigation
+nnoremap <c-a--> :action MoveTabRight<CR>
+nnoremap <CTRL-_> :action MoveTabDown<CR>
+nnoremap <c-a-=> :action MoveEditorToOppositeTabGroup<CR>
+nnoremap <a-x> :action CloseContent<CR>
+nnoremap <a-s-x> :action ReopenClosedTab<CR>
+
+nnoremap <c-h> <c-w>h
+nnoremap <c-l> <c-w>l
+nnoremap <c-j> <c-w>j
+nnoremap <c-k> <c-w>k
+
+sethandler <a-l> a:vim
+sethandler <a-h> a:vim
+nnoremap <a-l> :action NextTab<CR>
+nnoremap <a-h> :action PreviousTab<CR>
+nnoremap <a-j> :action MethodDown<CR>
+nnoremap <a-k> :action MethodUp<CR>
+
+" Jump to next/previous error, show error description
+nnoremap <Leader>e :action GotoNextError<CR>
+nnoremap <Leader-s>e :action GotoPreviousError<CR>
+
+""" Easy Motion
+map <leader>J <Plug>(easymotion-bd-s)
+map <leader>j <Plug>(easymotion-bd-f)
+map <leader>w <Plug>(easymotion-bd-w)
+
+""" Refactoring
+nnoremap <a-s-j> :action MoveLineDown<CR>
+nnoremap <a-s-k> :action MoveLineUp<CR>

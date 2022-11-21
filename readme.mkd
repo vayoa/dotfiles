@@ -30,6 +30,10 @@ Like I've said before, my main editor is intellij, which I use with the vim emul
 
 I use the [astronvim](https://github.com/AstroNvim/AstroNvim) neovim dotfiles, which I slightly modified for my needs.
 
+> Please Notice!
+>
+> To use my config you first need to setup [astronvim](https://github.com/AstroNvim/AstroNvim) and then paste my init.lua in the lua/user directory on your astronvim config.
+
 I used to run neovim straight from the windows terminal, but I've recently switched to using [neovide](https://github.com/neovide/neovide). Besides the config I run neovide with these parameters: `--multigrid --geometry=140x34 --frame=none`
 
 For the mica blur and rounded corners I use a program called [Mica For Everyone.](https://github.com/MicaForEveryone/MicaForEveryone)

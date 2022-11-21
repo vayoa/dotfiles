@@ -1,0 +1,49 @@
+# Vayoa's Dotfiles
+
+## Firefox Userchrome
+
+![firefox-userchrome](images/firefox-userchrome.png)
+
+I use a very slightly modified version of the [cascade](https://github.com/andreasgrafen/cascade) userchrome (I just changed the rounded corners I think).
+
+## Helix
+
+![helix](images/helix.png)
+
+My main editor is intellij so I don't use anything else that much. I just really liked how simple it was to config and setup helix, and how deep the lsp integration is (selecting code blocks is a really cool feature). I have a few issues with the editing itself though, as some stuff I do in 3 keystrokes in vim can take 6 in helix...
+
+Regradless, my helix config is very simple.
+
+## Intellij
+
+![intellij](images/intellij.png)
+
+I use intellij with the ideavim plugin as my main editor. While my editor settings are in a private repo on github (as jetbrains recommands) I'm saving my .ideavimrc here.
+
+## Neovim + Neovide
+
+![neovim+neovide](images/neovim%2Bneovide.png)
+
+![neovim+neovide-2](images/neovim%2Bneovide-2.png)
+
+Like I've said before, my main editor is intellij, which I use with the vim emulator plugin, but I really like the aesthetics of neovim (especially with my current setup) and would like to fully switch to it one day.
+
+I use the [astronvim](https://github.com/AstroNvim/AstroNvim) neovim dotfiles, which I slightly modified for my needs.
+
+I used to run neovim straight from the windows terminal, but I've recently switched to using [neovide](https://github.com/neovide/neovide). Besides the config I run neovide with these parameters: `--multigrid --geometry=140x34 --frame=none`
+
+For the mica blur and rounded corners I use a program called [Mica For Everyone.](https://github.com/MicaForEveryone/MicaForEveryone)
+
+## Vscode
+
+![vscode](images/vscode.png)
+
+I use it for very light editing (json, markdown) but still.
+
+## [Windows Terminal](https://github.com/microsoft/terminal)
+
+![windows-terminal](images/windows-terminal.png)
+
+The terminal emulator I use.
+
+I use powershell these days, don't really know why (I've also used fish before). The prompt I have is the default [Starship](https://github.com/starship/starship) one and I use [PSReadLine](https://github.com/PowerShell/PSReadLine) for autocompletions.

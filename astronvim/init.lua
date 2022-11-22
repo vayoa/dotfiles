@@ -4,10 +4,15 @@ return {
       foldmethod = 'expr',
     },
     g = {
+      -- Neovide
       neovide_refresh_rate = 144,
       neovide_scale_factor = 0.75,
       neovide_transparency = 0.9,
       neovide_cursor_vfx_mode = "pixiedust",
+
+      -- Leetcode
+      leetcode_browser = 'chrome',
+      leetcode_solution_filetype = 'python3'
     }
   },
   -- Key Mappings
@@ -54,6 +59,7 @@ return {
           require("nvim-surround").setup({})
         end
       },
+      { 'ianding1/leetcode.vim' },
 
       -- Lsp Related Plugins
       {

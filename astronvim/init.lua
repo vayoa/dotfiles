@@ -101,12 +101,12 @@ return {
         }
       },
       -- Install treesitter grammars.
-      ensure_installed = { "rust", "dart", "yaml", "python", "lua" }
+      ensure_installed = { "rust", "dart", "yaml", "python", "lua", "toml" }
     },
 
     ["mason-lspconfig"] = {
-      -- Install lsp (we're not installing dartls because it's bundled with the dart runtime)
-      ensure_installed = { "rust_analyzer", "sumneko_lua", "pyright", "yamlls" },
+      -- Install lsps (we're not installing dartls because it's bundled with the dart runtime)
+      ensure_installed = { "rust_analyzer", "sumneko_lua", "pyright", "yamlls", "taplo" },
     },
   },
 

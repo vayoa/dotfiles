@@ -18,7 +18,8 @@ return {
   -- Key Mappings
   mappings = {
     n = {
-      ['<leader>j'] = { "<cmd>HopPattern<cr>", desc = "Hop Pattern" }
+      ['<leader>j'] = { "<cmd>HopWord<cr>", desc = "Hop Word" },
+      ['<leader>r'] = { "<cmd>HopPattern<cr>", desc = "Hop Pattern" }
     }
   },
 
@@ -98,11 +99,14 @@ return {
             ["ib"] = "@block.inner",
           }
         }
-      }
+      },
+      -- Install treesitter grammars.
+      ensure_installed = { "rust", "dart", "yaml", "python", "lua" }
     },
 
     ["mason-lspconfig"] = {
-      ensure_installed = { "rust_analyzer", "dartls" }, -- install rust_analyzer and dartls
+      -- Install lsp (we're not installing dartls because it's bundled with the dart runtime)
+      ensure_installed = { "rust_analyzer", "sumneko_lua", "pyright", "yamlls" },
     },
   },
 

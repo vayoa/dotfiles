@@ -25,7 +25,7 @@ return {
 
   -- Lsp Settings
   lsp = {
-    servers = { "pylsp" },
+    servers = { "pyright" },
     skip_setup = { "rust_analyzer", "dartls" }, -- skip lsp setup because rust-tools and flutter-tools will do it themselves
     ["server-settings"] = {
       dartls = {

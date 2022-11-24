@@ -43,7 +43,11 @@ return {
   -- Custom Plugins
   plugins = {
     init = {
+      -- Treesitter
       { "nvim-treesitter/nvim-treesitter-textobjects" },
+      { "nvim-treesitter/nvim-treesitter-context" },
+
+      -- General
       {
         "phaazon/hop.nvim",
         branch = 'v2',

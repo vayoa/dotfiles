@@ -101,5 +101,8 @@
     "<C-d>": true,
     "<C-s>": false,
     "<C-z>": false
+  },
+  "[lua]": {
+    "editor.defaultFormatter": "sumneko.lua"
   }
 }

@@ -1,6 +1,7 @@
 return {
   options = {
     opt = {
+      foldmethod = "expr",
       foldcolumn = '0',
       foldlevel = 99,
       foldlevelstart = 1,
@@ -49,16 +50,16 @@ return {
       -- Treesitter
       { "nvim-treesitter/nvim-treesitter-textobjects" },
       { "nvim-treesitter/nvim-treesitter-context" },
-      { "kevinhwang91/nvim-ufo", 
+      { "kevinhwang91/nvim-ufo",
         requires = "kevinhwang91/promise-async",
         config = function()
           require('ufo').setup({
             provider_selector = function(bufnr, filetype, buftype)
-              return {'treesitter', 'expr'}
-            end
+              return { 'treesitter', 'expr' }
+            end,
           })
         end
-     },
+      },
 
       -- General
       {
@@ -126,4 +127,5 @@ return {
       ensure_installed = { "rust_analyzer", "sumneko_lua", "pyright", "yamlls", "taplo" },
     },
   },
+
 }

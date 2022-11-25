@@ -1,7 +1,10 @@
 return {
   options = {
     opt = {
-      foldmethod = 'expr',
+      foldcolumn = '0',
+      foldlevel = 99,
+      foldlevelstart = 99,
+      foldenable = true,
     },
     g = {
       -- Neovide
@@ -46,6 +49,16 @@ return {
       -- Treesitter
       { "nvim-treesitter/nvim-treesitter-textobjects" },
       { "nvim-treesitter/nvim-treesitter-context" },
+      { "kevinhwang91/nvim-ufo", 
+        requires = "kevinhwang91/promise-async",
+        config = function()
+          require('ufo').setup({
+            provider_selector = function(bufnr, filetype, buftype)
+              return {'treesitter', 'expr'}
+            end
+          })
+        end
+     },
 
       -- General
       {
@@ -113,9 +126,4 @@ return {
       ensure_installed = { "rust_analyzer", "sumneko_lua", "pyright", "yamlls", "taplo" },
     },
   },
-
-  -- Polish Function
-  polish = function()
-    vim.opt.foldexpr = 'nvim_treesitter#foldexpr()'
-  end
 }

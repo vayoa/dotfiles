@@ -3,7 +3,7 @@ return {
     opt = {
       foldcolumn = '0',
       foldlevel = 99,
-      foldlevelstart = 99,
+      foldlevelstart = 1,
       foldenable = true,
     },
     g = {

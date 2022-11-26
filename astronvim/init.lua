@@ -78,7 +78,7 @@ return {
           require("nvim-surround").setup({})
         end
       },
-      { 'ianding1/leetcode.vim' },
+      { "ianding1/leetcode.vim" },
 
       -- Lsp Related Plugins
       {

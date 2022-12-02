@@ -21,10 +21,16 @@ return {
   },
   -- Key Mappings
   mappings = {
+    -- Normal Mode
     n = {
       ['<leader>j'] = { "<cmd>HopWord<cr>", desc = "Hop Word" },
       ['<leader>r'] = { "<cmd>HopPattern<cr>", desc = "Hop Pattern" }
-    }
+    },
+    -- Visual Mode
+    v = {
+      ['<leader>j'] = { "<cmd>HopWord<cr>", desc = "Hop Word" },
+      ['<leader>r'] = { "<cmd>HopPattern<cr>", desc = "Hop Pattern" }
+    },
   },
 
   -- Lsp Settings

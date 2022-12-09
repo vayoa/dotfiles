@@ -52,6 +52,11 @@ return {
 
   -- Custom Plugins
   plugins = {
+
+    ["mason-nvim-dap"] = {
+      ensure_installed = { "python", "rust", "dart" },
+    },
+
     init = {
       -- Treesitter
       { "nvim-treesitter/nvim-treesitter-textobjects" },
@@ -106,6 +111,12 @@ return {
           }
         end,
       },
+
+      -- DAP
+      ["mfussenegger/nvim-dap"] = { disable = false },
+      ["rcarriga/nvim-dap-ui"] = { disable = false },
+      ["jayp0521/mason-nvim-dap.nvim"] = { disable = false },
+
     },
 
     -- Treesitter Config (mainly used for treesitter textobjects)

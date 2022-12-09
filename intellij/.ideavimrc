@@ -8,6 +8,7 @@ set relativenumber
 set ideajoin
 set which-key
 
+let scrolloff = 5
 let mapleader = " "
 
 """ Handlers

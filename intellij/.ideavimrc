@@ -7,6 +7,8 @@ set number
 set relativenumber
 set ideajoin
 set which-key
+set visualbell
+set noerrorbells
 
 let scrolloff = 5
 let mapleader = " "

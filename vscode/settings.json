@@ -1,5 +1,4 @@
 {
-  "workbench.colorTheme": "Monokai Pro (Filter Spectrum)",
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "[json]": {
@@ -12,7 +11,7 @@
   "editor.minimap.maxColumn": 100,
   "terminal.integrated.gpuAcceleration": "off",
   "vscode_vibrancy.opacity": 0.8,
-  "vscode_vibrancy.theme": "Dark (Only Subbar)",
+  "vscode_vibrancy.theme": "Default Light",
   "vscode_vibrancy.type": "acrylic",
   "[dart]": {
     "editor.formatOnSave": true,
@@ -22,7 +21,7 @@
     "editor.suggest.snippetsPreventQuickSuggestions": false,
     "editor.suggestSelection": "first",
     "editor.tabCompletion": "onlySnippets",
-    "editor.wordBasedSuggestions": false
+    "editor.wordBasedSuggestions": "off"
   },
   "git.enableSmartCommit": true,
   "editor.formatOnSave": true,
@@ -46,52 +45,68 @@
   "yaml.customTags": [
     "!sequence sequence",
     "!seq sequence",
-
     "!dialog mapping",
     "!text mapping",
     "!title mapping",
-
     "!character mapping",
     "!characterDef mapping",
-
     "!refer",
     "!ref",
-
     "!wait",
-
     "!input mapping",
     "!in mapping",
-
     "!literals sequence",
     "!literals",
     "!lit sequence",
     "!lit",
-
     "!branch mapping",
     "!switch mapping",
-
     "!lastIn sequence",
-
     "!print",
-
     "!let",
-
     "!e",
     "!expr",
-    "!expression"
+    "!expression",
+    "!And",
+    "!And sequence",
+    "!If",
+    "!If sequence",
+    "!Not",
+    "!Not sequence",
+    "!Equals",
+    "!Equals sequence",
+    "!Or",
+    "!Or sequence",
+    "!FindInMap",
+    "!FindInMap sequence",
+    "!Base64",
+    "!Join",
+    "!Join sequence",
+    "!Cidr",
+    "!Ref",
+    "!Sub",
+    "!Sub sequence",
+    "!GetAtt",
+    "!GetAZs",
+    "!ImportValue",
+    "!ImportValue sequence",
+    "!Select",
+    "!Select sequence",
+    "!Split",
+    "!Split sequence"
   ],
   "editor.fontLigatures": true,
   "[rust]": {
     "editor.defaultFormatter": "rust-lang.rust-analyzer",
     "editor.formatOnSave": true
   },
-  "workbench.iconTheme": "material-icon-theme",
+  "workbench.iconTheme": "catppuccin-latte",
   "editor.inlayHints.fontFamily": "JetBrains Mono",
   "editor.codeActionsOnSave": {},
   "settingsSync.ignoredExtensions": ["k--kato.intellij-idea-keybindings"],
   "editor.stickyScroll.enabled": true,
   "editor.cursorBlinking": "smooth",
-  "editor.cursorSmoothCaretAnimation": true,
+  "editor.cursorSmoothCaretAnimation": "on",
   "vim.easymotion": true,
   "vim.leader": "<Space>",
   "editor.lineNumbers": "relative",
@@ -105,5 +120,24 @@
   "[lua]": {
     "editor.defaultFormatter": "sumneko.lua"
   },
-  "Lua.telemetry.enable": false
+  "Lua.telemetry.enable": false,
+  "HuggingFaceCode.temperature": null,
+  "vscode_custom_css.imports": [
+    "file:///c:/Users/ew0nd/.vscode/extensions/brandonkirbyson.vscode-animations-1.1.0/dist/updateHandler.js"
+  ],
+  "workbench.colorTheme": "Monokai Pro (Filter Spectrum)",
+  "window.titleBarStyle": "custom",
+  "editor.inlineSuggest.showToolbar": "always",
+  "window.autoDetectColorScheme": true,
+  "workbench.preferredDarkColorTheme": "Monokai Pro (Filter Spectrum)",
+  "workbench.preferredLightColorTheme": "Catppuccin Latte",
+  "vscode_vibrancy.refreshInterval": 100,
+  "[svelte]": {
+    "editor.defaultFormatter": "svelte.svelte-vscode"
+  },
+  "svelte.enable-ts-plugin": true,
+  "cSpell.userWords": ["castadi", "flipbook", "gradio"],
+  "aws.suppressPrompts": {
+    "codeWhispererNewWelcomeMessage": true
+  }
 }

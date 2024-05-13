@@ -9,8 +9,8 @@ set ideajoin
 set which-key
 set visualbell
 set noerrorbells
+set scrolloff = 5
 
-let scrolloff = 5
 let mapleader = " "
 
 """ Handlers

@@ -37,13 +37,21 @@
   "initialRows": 22,
   "language": "en-US",
   "launchMode": "default",
+  "newTabMenu": [
+    {
+      "type": "remainingProfiles"
+    }
+  ],
   "profiles": {
     "defaults": {
-      "colorScheme": "One Half Dark",
+      "colorScheme": {
+        "light": "One Half Light",
+        "dark": "One Half Dark"
+      },
       "experimental.retroTerminalEffect": false,
       "font": {
         "face": "MesloLGM NF",
-        "size": 10
+        "size": 10.0
       },
       "opacity": 65,
       "useAcrylic": true
@@ -438,6 +446,7 @@
       "yellow": "#808000"
     }
   ],
-  "theme": "dark",
+  "theme": "system",
+  "themes": [],
   "useAcrylicInTabRow": true
 }

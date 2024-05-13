@@ -37,7 +37,7 @@
   "initialCols": 110,
   "initialRows": 22,
   "language": "en-US",
-  "launchMode": "default",
+  "launchMode": "focus",
   "newTabMenu": [
     {
       "type": "remainingProfiles"

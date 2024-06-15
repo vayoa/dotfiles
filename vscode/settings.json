@@ -38,7 +38,7 @@
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
   "[python]": {
-    "editor.defaultFormatter": "ms-python.python"
+    "editor.defaultFormatter": "ms-python.black-formatter"
   },
   "editor.fontFamily": "JetBrains Mono",
   "redhat.telemetry.enabled": false,
@@ -109,7 +109,6 @@
   "editor.cursorSmoothCaretAnimation": "on",
   "vim.easymotion": true,
   "vim.leader": "<Space>",
-  "editor.lineNumbers": "relative",
   "vim.smartRelativeLine": true,
   "vim.handleKeys": {
     "<C-w>": true,
@@ -130,14 +129,39 @@
   "editor.inlineSuggest.showToolbar": "always",
   "window.autoDetectColorScheme": true,
   "workbench.preferredDarkColorTheme": "Monokai Pro (Filter Spectrum)",
-  "workbench.preferredLightColorTheme": "Catppuccin Latte",
+  "workbench.preferredLightColorTheme": "Ayu Light Bordered",
   "vscode_vibrancy.refreshInterval": 100,
   "[svelte]": {
     "editor.defaultFormatter": "svelte.svelte-vscode"
   },
   "svelte.enable-ts-plugin": true,
-  "cSpell.userWords": ["castadi", "flipbook", "gradio"],
+  "cSpell.userWords": [
+    "castadi",
+    "flipbook",
+    "gradio",
+    "langchain",
+    "pixelize"
+  ],
   "aws.suppressPrompts": {
     "codeWhispererNewWelcomeMessage": true
-  }
+  },
+  "catppuccin.accentColor": "rosewater",
+  "catppuccin.extraBordersEnabled": true,
+  "txtsyntax.enableCodeLens": true,
+  "python.createEnvironment.trigger": "off",
+  "terminal.integrated.allowedLinkSchemes": [
+    "file",
+    "http",
+    "https",
+    "mailto",
+    "vscode",
+    "vscode-insiders",
+    "C"
+  ],
+  "vscode_vibrancy.enableAutoTheme": true,
+  "vscode_vibrancy.preferedDarkTheme": "GitHub Dark Default",
+  "vscode_vibrancy.preventFlash": false,
+  "continue.enableTabAutocomplete": true,
+  "workbench.editor.editorActionsLocation": "hidden",
+  "editor.minimap.enabled": false
 }

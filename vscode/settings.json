@@ -5,7 +5,8 @@
     "editor.defaultFormatter": "vscode.json-language-features"
   },
   "workbench.editorAssociations": {
-    "*.ipynb": "jupyter.notebook.ipynb"
+    "*.ipynb": "jupyter.notebook.ipynb",
+    "file:/**/*.csv": "jupyter-data-wrangler"
   },
   "python.pythonPath": "C:\\Users\\ew0nd\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
   "editor.minimap.maxColumn": 100,
@@ -162,6 +163,5 @@
   "vscode_vibrancy.preferedDarkTheme": "GitHub Dark Default",
   "vscode_vibrancy.preventFlash": false,
   "continue.enableTabAutocomplete": true,
-  "workbench.editor.editorActionsLocation": "hidden",
-  "editor.minimap.enabled": false
+  "workbench.editor.editorActionsLocation": "hidden"
 }

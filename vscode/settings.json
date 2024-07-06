@@ -138,6 +138,7 @@
   "svelte.enable-ts-plugin": true,
   "cSpell.userWords": [
     "castadi",
+    "chromadb",
     "flipbook",
     "gradio",
     "langchain",
@@ -163,5 +164,6 @@
   "vscode_vibrancy.preferedDarkTheme": "GitHub Dark Default",
   "vscode_vibrancy.preventFlash": false,
   "continue.enableTabAutocomplete": true,
-  "workbench.editor.editorActionsLocation": "hidden"
+  "workbench.editor.editorActionsLocation": "hidden",
+  "jupyter.interactiveWindow.textEditor.executeSelection": true
 }
